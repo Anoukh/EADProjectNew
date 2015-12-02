@@ -23,6 +23,12 @@ public class EngineDAOImpl implements EngineDAO {
     @Autowired
     DataSource dataSource;
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 47461b6ef9f18b97e908149a0ac51dae7337355a
     public List<Engine> listEngine() {
 //        logger.debug("Entered DAO");
         List<Engine> engines = null;
@@ -34,7 +40,11 @@ public class EngineDAOImpl implements EngineDAO {
         engines = jdbcTemplate.query(sql, new RowMapper<Engine>() {
 
             public Engine mapRow(ResultSet resultSet, int i) throws SQLException {
+<<<<<<< HEAD
 //               ` logger.debug("Entered Query");
+=======
+//                logger.debug("Entered Query");
+>>>>>>> 47461b6ef9f18b97e908149a0ac51dae7337355a
                 Engine engine = new Engine();
 
                 engine.setEngine_name(resultSet.getString("engine_name"));
@@ -60,7 +70,12 @@ public class EngineDAOImpl implements EngineDAO {
                 + " VALUES (?, ?, ?, ?, ?, ?)";
 
         try {
+<<<<<<< HEAD
             jdbcTemplate.update(sql, engine.getEngine_name(), engine.getFuel_type(), engine.getMounting_type(), engine.getCc(), engine.getNo_of_cylinders(), engine.getPrice());
+=======
+            jdbcTemplate.update(sql, engine.getEngine_name(), engine.getFuel_type(), engine.getMounting_type(),
+                    engine.getCc(), engine.getNo_of_cylinders(), engine.getPrice());
+>>>>>>> 47461b6ef9f18b97e908149a0ac51dae7337355a
         }catch (Exception e) {
             System.out.println(e);
             return "Error";

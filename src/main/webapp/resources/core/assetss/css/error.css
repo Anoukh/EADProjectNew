@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   padding-top: 40px;
 }
@@ -15,3 +16,22 @@ body {
     font-size: 55px;
   }
 }
+=======
+body {
+  padding-top: 40px;
+}
+
+
+.logo h1 {
+  color: #000000;
+  font-size: 100px;
+}
+
+
+
+@media (max-width: 767px){
+  .logo h1 {
+    font-size: 55px;
+  }
+}
+>>>>>>> 47461b6ef9f18b97e908149a0ac51dae7337355a

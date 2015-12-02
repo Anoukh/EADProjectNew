@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 .jqstooltip {
 -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
+=======
+.jqstooltip {
+-webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+>>>>>>> 47461b6ef9f18b97e908149a0ac51dae7337355a
 }

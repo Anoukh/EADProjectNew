@@ -89,7 +89,12 @@ body {
 }
 
 #logoimg {
+<<<<<<< HEAD
   width: 315px;
 height: 51px;
+=======
+  width: 315px;
+height: 51px;
+>>>>>>> 47461b6ef9f18b97e908149a0ac51dae7337355a
 padding-left: 33px
 }
