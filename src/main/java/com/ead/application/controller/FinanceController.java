@@ -50,7 +50,7 @@ public class FinanceController {
     @RequestMapping("/financeoutflow")
     public String ll(Model model){
 
-//        logger.debug("Entered Controller");
+        logger.debug("Entered Controller");
         //  model.addAttribute("transactions", financeTransactionService.getFinancialTransactions());
 
         return "";
@@ -59,7 +59,7 @@ public class FinanceController {
     @RequestMapping("/financeAorR")
     public String lml(Model model){
 
-//        logger.debug("Entered Controller");
+        logger.debug("Entered Controller");
         //  model.addAttribute("transactions", financeTransactionService.getFinancialTransactions());
 
         return "finance/financeAorR";
